@@ -52,18 +52,7 @@
         <section class="hero-section">
             <div class="container">
                 <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-                <button class="hero-btn" type="button" data-modal-open>Заказать услугу</button>
-                <div class="backdrop is-hidden" data-modal>
-                    <div class="modal">
-                        <button class="close-btn" type="button" data-modal-close>
-                            <svg class="close-icon" width="30" height="30">
-                                <use href="./image/icons.svg#icon-close"></use>
-                            </svg>
-                        </button>
-                            
-                    </div>
-                </div>
-                
+                <button class="hero-btn" type="button" data-modal-open>Заказать услугу</button>           
             </div>            
         </section>
         <!-- Особливості компанії -->
@@ -400,6 +389,19 @@
             </div>
         </div>
     </footer>
+
+    <!-- БЕКДРОП З МОДАЛЬНИМ ВІКНОМ -->
+
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="close-btn" data-modal-close>
+                <svg class="close-icon" width="18" height="18">
+                    <use href="./image/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+
     <script src="./js/modal.js"></script>
 </body>
 </html>
